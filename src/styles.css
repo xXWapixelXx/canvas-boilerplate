@@ -1,0 +1,14 @@
+/* Definieer een CSS-klasse voor de aanvalsanimatie */
+.attack-animation {
+    animation-name: attack;
+    animation-duration: 0.5s; /* Duur van de animatie (0.5 seconden in dit voorbeeld) */
+    animation-timing-function: linear; /* Lineaire timingfunctie, je kunt dit aanpassen aan jouw voorkeur */
+    animation-iteration-count: 1; /* Aantal herhalingen (1 voor eenmalige animatie) */
+}
+
+/* Definieer de keyframes voor de aanvalsanimatie */
+@keyframes attack {
+    0% { background-color: transparent; } /* Beginstatus (transparant in dit voorbeeld) */
+    
+    100% { background-color: transparent; } /* Eindstatus (terug naar transparant) */
+}
